@@ -128,6 +128,9 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	font-family: 微软雅黑;
 	overflow: hidden;
 }
+.header.red{
+	background-color: #fc353a;
+}
 .header h2 {
 	color: #fff;
 	font-size: 17px;
@@ -147,12 +150,12 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	display: block;
 	width: 40px;
 	height: 44px;
-	left: 15px
+	left: 0;
 }
 .header .a-back:before {
 	border: #fff solid 2px;
 	position: absolute;
-	left: 0;
+	left: 15px;
 	top: 50%;
 	margin-top: -6px;
 	display: block;

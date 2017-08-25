@@ -131,6 +131,9 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 .header.red{
 	background-color: #fc353a;
 }
+.header.white{
+	background-color: #fff;
+}
 .header h2 {
 	color: #fff;
 	font-size: 17px;
@@ -166,6 +169,11 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	border-right: none;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg)
+}
+.header.white .a-back:before{
+	border: 2px solid #999;
+	border-top: none;
+	border-right: none;
 }
 .header .search-box{
 	float: left;

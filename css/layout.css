@@ -451,3 +451,60 @@
 	white-space: nowrap;
 	text-overflow: ellipsis;
 }
+/*分类*/
+.sort-left{
+	box-sizing: border-box;
+	float: left;
+	width: 24%;
+	overflow-y: scroll;
+}
+.sort-left ul li{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 14px;
+	background-color: #fff;
+	border-bottom: 2px solid #f2f2f2;
+}
+.sort-left ul li.cur{
+	background-color: #f2f2f2;
+}
+.sort-left ul li a{
+	display: block;
+}
+.sort-right{
+	box-sizing: border-box;
+	float: left;
+	width: 75%;
+	padding: 0 5px;
+	overflow-y: scroll;
+	font-size: 14px;
+}
+.sort-right .sort-box h4{
+	font-weight: bold;
+	line-height: 30px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.sort-box .sort-list{
+	background-color: #fff;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+.sort-list ul{
+	overflow: hidden;
+}
+.sort-list ul li{
+	width: 25%;
+	height: 35px;
+	line-height: 35px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.sort-list ul li a{
+	display: block;
+	width: 100%;
+	height: 35px;
+}

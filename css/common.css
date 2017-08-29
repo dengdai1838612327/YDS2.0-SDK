@@ -206,6 +206,9 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	display: block;
 	line-height: 18px;
 }
+.content{
+	overflow: hidden;
+}
 .bar{
 	position: fixed;
 	right: 0;
@@ -383,7 +386,6 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 .button-left-w-change {
 	width: 35px
 }
-/*首页icon滑动*/
 .swiper-container {
 	margin-left: auto;
 	margin-right: auto;
@@ -460,4 +462,37 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 }
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
 	margin: 0 5px;
+}
+.icon-down,
+.icon-up{
+	position: absolute;
+  display: inline-block;
+  width: 15px;
+  height: 35px;
+  top: 0;
+  left: 50%;
+  margin-left: -7px;
+}
+.icon-down:before,
+.icon-up:before{
+	border: #666 solid 2px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	display: block;
+	content: '';
+	width: 12px;
+	height: 12px;
+	border-top: none;
+	border-right: none;
+}
+.icon-down:before{
+	margin-top: -10px;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg)
+}
+.icon-up:before{
+	margin-top: -3px;
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg)
 }

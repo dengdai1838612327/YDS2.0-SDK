@@ -138,7 +138,7 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	color: #fff;
 	font-size: 17px;
 	left: 50%;
-	margin: 0 auto 0 -25%;
+	margin: 0 auto 0 -27%;
 	overflow: hidden;
 	overflow-wrap: normal;
 	position: absolute;
@@ -464,7 +464,8 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	margin: 0 5px;
 }
 .icon-down,
-.icon-up{
+.icon-up,
+.icon-right{
 	position: absolute;
   display: inline-block;
   width: 15px;
@@ -474,7 +475,8 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
   margin-left: -7px;
 }
 .icon-down:before,
-.icon-up:before{
+.icon-up:before,
+.icon-right:before{
 	border: #666 solid 2px;
 	position: absolute;
 	left: 0;
@@ -495,4 +497,9 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	margin-top: -3px;
 	-webkit-transform: rotate(135deg);
 	transform: rotate(135deg)
+}
+.icon-right:before{
+	margin-top: -7px;
+	-webkit-transform: rotate(-135deg);
+	transform: rotate(-135deg)
 }

@@ -70,7 +70,7 @@
     <span>运费：00.00元</span>
     <span class="center">月销：000000笔</span>
   </div>
-  <div class="goods-sel">
+  <div class="goods-sel" onclick="return submit();">
     <label>已选</label>
     <span>灰色 L</span>
     <i class="icon-right"></i>
@@ -121,12 +121,89 @@
     <a href="###"><i class="sprites"></i></a>
   </div>
 </div>
+<div id="bg-gray"></div>
+<div class="sel-modal">
+  <i class="sprites close"></i>
+  <div class="goods-intro clearfix">
+    <div class="img">
+      <img src="images/200_1.jpg" width="100" height="100">
+    </div>
+    <div class="price-name">
+      <p class="price">商城价：<em>￥90</em></p>
+      <p class="name">骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋</p>
+    </div>
+  </div>
+  <div class="scroll-y">
+    <div class="sel-list">
+      <dl>
+        <dt>分类1</dt>
+        <dd class="on">选项一</dd>
+        <dd>选项二（字多的时候是这样子的哦）</dd>
+      </dl>
+      <dl>
+        <dt>分类2</dt>
+        <dd class="on">选项一</dd>
+        <dd>选项二</dd>
+        <dd>选项三</dd>
+        <dd>选项四</dd>
+        <dd>选项五（字多的时候是这样子的哦）</dd>
+      </dl>
+    </div>
+    <div class="sel-addr">
+      <div class="addr-selected">
+        <label>配送至</label>
+        <a href="###" class="addr-detail">
+          <span>上海</span>
+          <span>浦东新区</span>
+          <span>金桥</span>
+          <span>台儿庄路</span>
+          <i class="icon-down"></i>
+        </a>
+        <span class="stock">有货</span>
+      </div>
+      <div class="addr-open">
+        <ul class="tit">
+          <li class="cur">请选择</li>
+          <li>请选择</li>
+          <li>请选择</li>
+        </ul>
+        <ul class="con">
+          <li>北京</li>
+          <li>上海</li>
+          <li>天津</li>
+          <li>重庆</li>
+          <li>黑龙江</li>
+        </ul>
+      </div>
+    </div>
+    <div class="goods-num">
+      <label>数量：</label>
+      <div class="fl">
+        <span class="jian"></span>
+        <input type="text" class="num" value="1">
+        <span class="jia"></span>
+      </div>
+    </div>
+  </div>
+  <div class="sel-btn">
+    <input type="button" value="确定" class="yes">
+    <!-- <input type="button" value="该地区无货" class="gray"> -->
+  </div>
+</div>
+<script src="js/jquery.min.js"></script>
 <script src="js/swiper.min.js"></script>
-
-<script language="javascript">
+<script>
+function submit() {
+  var bggray = $("#bg-gray");
+  var modal = $(".sel-modal");
+  bggray.css("height", window.screen.height);
+  bggray.css("width", window.screen.width);
+  bggray.show();
+  modal.show();
+}
 var mySwiper = new Swiper('.swiper-container',{
-pagination : '.swiper-pagination',
-uniqueNavElements :"true",
+  pagination : '.swiper-pagination',
+  uniqueNavElements :"true",
 })
 </script>
 </body>

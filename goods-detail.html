@@ -70,7 +70,7 @@
     <span>运费：00.00元</span>
     <span class="center">月销：000000笔</span>
   </div>
-  <div class="goods-sel" onclick="return submit();">
+  <div class="goods-sel" onclick="return goods_sel();">
     <label>已选</label>
     <span>灰色 L</span>
     <i class="icon-right"></i>
@@ -193,7 +193,7 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/swiper.min.js"></script>
 <script>
-function submit() {
+function goods_sel() {
   var bggray = $("#bg-gray");
   var modal = $(".sel-modal");
   bggray.css("height", window.screen.height);

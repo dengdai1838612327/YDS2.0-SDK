@@ -708,6 +708,7 @@
 	overflow: hidden;
 	padding: 10px 5px;
 	height: 25px;
+	font-size: 12px;
 }
 .comment-box .con .head i.sprites{
 	float: left;
@@ -718,20 +719,21 @@
 }
 .comment-box .user-name{
 	line-height: 25px;
+	margin-right: 5px;
 }
-.comment-box .level{
+.level{
 	float: right;
 	height: 16px;
 	margin: 4px 0;
 }
-.comment-box .level .xing1{
+.level .xing1{
 	display: inline-block;
 	width: 19px;
 	height: 16px;
 	background: url(../images/x1.png) right top no-repeat;
 	background-size: 38px 16px;
 }
-.comment-box .level .xing1.on{
+.level .xing1.on{
 	background-position: left top;
 }
 .comment-box .comment-text{
@@ -991,4 +993,60 @@
 }
 .sel-modal .sel-btn input.gray{
 	background-color: #999;
+}
+/*查看所有评论*/
+.comment-goods{
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	height: 94px;
+	overflow: hidden;
+}
+.comment-goods .img{
+	float: left;
+	width: 25%;
+	margin: 15px;
+}
+.comment-goods .img img{
+	display: block;
+}
+.comment-goods .name-level{
+	float: left;
+	width: 65%;
+}
+.comment-goods .name-level .name{
+	font-size: 16px;
+  height: 50px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+.comment-goods .level{
+	float: left;
+}
+.appmsg_editor {
+	position: relative;
+	margin-bottom: 10px;
+}
+.appmsg_editor .inner {
+	background-color: #dfdfdf;
+	color: #666;
+	margin: 8px auto 0;
+	padding: 5px;
+	width: 96%;
+	font-size: 14px;
+	border-radius: 5px;
+}
+.appmsg_editor .arrow_out {
+	border-color: transparent transparent #dfdfdf;
+	border-style: dashed dashed solid;
+	border-width: 7px;
+	display: inline-block;
+	height: 0;
+	left: 35px;
+	top: -14px;
+	width: 0;
+	margin-top: 0;
+}
+.appmsg_editor .arrow {
+	position: absolute;
+	z-index: 9;
 }

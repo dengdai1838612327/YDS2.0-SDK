@@ -8,7 +8,12 @@ body {
 	font: 400 12px/1.5 微软雅黑, Verdana, simsun, Sans-Serif,;
 	font-size: 12px;
 	color: #333;
-	background: #f2f2f2
+	background: #f2f2f2;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 }
 .n_b, fieldset, img {
 	border: 0
@@ -79,6 +84,17 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	height: 0;
 	visibility: hidden
 }
+* {
+	tap-highlight-color: transparent;
+	-webkit-tap-highlight-color: transparent;
+	-ms-tap-highlight-color: transparent;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	border: 0
+}
 .bfff .page {
 	background-color: #fff
 }
@@ -128,10 +144,10 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	font-family: 微软雅黑;
 	overflow: hidden;
 }
-.header.red{
+.header.red {
 	background-color: #fc353a;
 }
-.header.white{
+.header.white {
 	background-color: #fff;
 }
 .header h2 {
@@ -170,12 +186,12 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg)
 }
-.header.white .a-back:before{
+.header.white .a-back:before {
 	border: 2px solid #999;
 	border-top: none;
 	border-right: none;
 }
-.header .search-box{
+.header .search-box {
 	float: left;
 	width: 85%;
 	height: 30px;
@@ -183,33 +199,33 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	border-radius: 100px;
 	margin: 7px 0;
 }
-.header .search-box i{
+.header .search-box i {
 	float: left;
 	width: 16px;
 	height: 16px;
 	margin: 7px 10px;
 	background-position: -125px -4px;
 }
-.header a.msg{
+.header a.msg {
 	float: right;
 }
-.header a.msg i{
+.header a.msg i {
 	float: right;
 	width: 28px;
 	height: 24px;
 	margin-top: 3px;
 	background-position: -221px -38px;
 }
-.header a.msg span{
+.header a.msg span {
 	color: #fff;
 	font-size: 12px;
 	display: block;
 	line-height: 18px;
 }
-.content{
+.content {
 	overflow: hidden;
 }
-.bar{
+.bar {
 	position: fixed;
 	right: 0;
 	left: 0;
@@ -218,7 +234,7 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
-.bar:after{
+.bar:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -233,14 +249,14 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	-webkit-transform-origin: 50% 100%;
 	transform-origin: 50% 100%;
 }
-.bar-tab{
+.bar-tab {
 	bottom: 0;
 	width: 100%;
 	height: 55px;
 	padding: 0;
 	table-layout: fixed;
 }
-.bar-tab:before{
+.bar-tab:before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -255,10 +271,10 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	-webkit-transform-origin: 50% 0%;
 	transform-origin: 50% 0%;
 }
-.bar-tab:after{
+.bar-tab:after {
 	display: none;
 }
-.bar-tab .tab-item{
+.bar-tab .tab-item {
 	position: relative;
 	display: table-cell;
 	width: 1%;
@@ -270,46 +286,46 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 .footer a.cur {
 	color: #e51a29
 }
-.footer .tab-item i{
+.footer .tab-item i {
 	display: block;
 	width: 30px;
 	height: 30px;
 	margin: 7px auto 0;
 }
-.footer .tab1 i{
+.footer .tab1 i {
 	background-position: -254px -74px;
 }
-.footer .tab1.cur i{
+.footer .tab1.cur i {
 	background-position: -230px -234px;
 }
-.footer .tab2 i{
+.footer .tab2 i {
 	background-position: -280px -143px;
 }
-.footer .tab2.cur i{
+.footer .tab2.cur i {
 	background-position: -282px -3px;
 }
-.footer .tab3 i{
+.footer .tab3 i {
 	background-position: -220px -3px;
 }
-.footer .tab3.cur i{
+.footer .tab3.cur i {
 	background-position: -280px -178px;
 }
-.footer .tab4 i{
+.footer .tab4 i {
 	background-position: -33px -127px;
 }
-.footer .tab4.cur i{
+.footer .tab4.cur i {
 	background-position: -255px -107px;
 }
-.footer .tab5 i{
+.footer .tab5 i {
 	background-position: -280px -38px;
 }
-.footer .tab5.cur i{
+.footer .tab5.cur i {
 	background-position: -246px -173px;
 }
 .footer .tab-item span {
-  line-height: 18px;
-  font-size: 12px;
-  display: block;
+	line-height: 18px;
+	font-size: 12px;
+	display: block;
 }
 .banner {
 	width: 100%;
@@ -335,7 +351,6 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	overflow: hidden;
 	text-align: center;
 	font-family: 微软雅黑;
-	padding-bottom: 10px;
 }
 .ul-list li {
 	color: #666;
@@ -463,20 +478,16 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
 	margin: 0 5px;
 }
-.icon-down,
-.icon-up,
-.icon-right{
+.icon-down, .icon-up, .icon-right {
 	position: absolute;
-  display: inline-block;
-  width: 15px;
-  height: 35px;
-  top: 0;
-  left: 50%;
-  margin-left: -7px;
+	display: inline-block;
+	width: 15px;
+	height: 35px;
+	top: 0;
+	left: 50%;
+	margin-left: -7px;
 }
-.icon-down:before,
-.icon-up:before,
-.icon-right:before{
+.icon-down:before, .icon-up:before, .icon-right:before {
 	border: #666 solid 2px;
 	position: absolute;
 	left: 0;
@@ -488,18 +499,60 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	border-top: none;
 	border-right: none;
 }
-.icon-down:before{
+.icon-down:before {
 	margin-top: -10px;
 	-webkit-transform: rotate(-45deg);
 	transform: rotate(-45deg)
 }
-.icon-up:before{
+.icon-up:before {
 	margin-top: -3px;
 	-webkit-transform: rotate(135deg);
 	transform: rotate(135deg)
 }
-.icon-right:before{
+.icon-right:before {
 	margin-top: -7px;
 	-webkit-transform: rotate(-135deg);
 	transform: rotate(-135deg)
+}
+/*首页公告*/
+
+.notice {
+	background: #fff none repeat scroll 0 0;
+	color: #333;
+	font-size: 12px;
+	margin: 0 auto;
+	padding: 5px 10px;
+	width: 100%;
+}
+.news_img {
+	width: 43px;
+	height: 32px;
+	float: left;
+	background: url(../images/gg.png) center center no-repeat;
+	background-size: 43px 32px;
+}
+.notice em {
+	margin: 0 3px 0 10px;
+	font-weight: bold;
+	color: #f60;
+}
+.t-news {
+	height: 30px;
+	overflow: hidden;
+	overflow-wrap: normal;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 85%;
+}
+.t-news a {
+	color: #333;
+	display: block;
+	line-height: 30px;
+	overflow: hidden;
+	overflow-wrap: normal;
+	text-overflow: ellipsis;
+	width: 99%;
+}
+.bgfff {
+	background: #fff;
 }

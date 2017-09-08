@@ -275,13 +275,14 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	display: none;
 }
 .bar-tab .tab-item {
-	position: relative;
-	display: table-cell;
-	width: 1%;
-	height: 55px;
 	color: #929292;
-	text-align: center;
-	vertical-align: middle;
+    display: table-cell;
+    float: left;
+    height: 55px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
 }
 .footer a.cur {
 	color: #e51a29

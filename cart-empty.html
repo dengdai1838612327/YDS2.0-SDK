@@ -2,7 +2,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>发现-空，购物车-空</title>
+<title>购物车-空</title>
 <link rel="stylesheet" type="text/css" href="css/common.css">
 <link rel="stylesheet" type="text/css" href="css/layout.css">
 <meta content="yes" name="apple-mobile-web-app-capable" />
@@ -12,19 +12,33 @@
 <meta name="format-detection" content="telephone=no" />
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=0">
 </head>
-<body class="bfff">
+<body>
 <div class="topfixed">
   <header class="header red">
-    <h2>发现</h2>
+    <h2>购物车</h2>
   </header>
 </div>
-<div class="content" style="padding:45px 0 55px;">
+<div class="content" style="padding:45px 0 100px;">
   <div class="empty-img">
     <img src="images/empty.png" width="115" height="90">
   </div>
   <div class="empty-text">
     <p>暂无内容</p>
     <p>敬请期待...</p>
+  </div>
+  <div class="cart-btm">
+    <div class="all-check">
+      <i class="sprites check"></i>
+      <span>全选</span>
+    </div>
+    <div class="btn">
+      <input type="button" class="del" value="删除">
+      <input type="button" class="checkout" value="结算">
+    </div>
+    <div class="price">
+      <p class="price-num">合计:<em>￥99999.00</em></p>
+      <p class="f12">不含运费</p>
+    </div>
   </div>
 </div>
 <nav class="bar bar-tab footer">
@@ -36,11 +50,11 @@
     <i class="sprites"></i>
     <span class="tab-label">分类</span>
   </a>
-  <a class="tab-item tab3 cur" href="#">
+  <a class="tab-item tab3" href="#">
     <i class="sprites"></i>
     <span class="tab-label">发现</span>
   </a>
-  <a class="tab-item tab4" href="#">
+  <a class="tab-item tab4 cur" href="#">
     <i class="sprites"></i>
     <span class="tab-label">购物车</span>
   </a>

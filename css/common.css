@@ -171,6 +171,15 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	height: 44px;
 	left: 0;
 }
+.header .a-rt {
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	width: 50px;
+}
 .header .a-back:before {
 	border: #fff solid 2px;
 	position: absolute;
@@ -276,13 +285,13 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 }
 .bar-tab .tab-item {
 	color: #929292;
-    display: table-cell;
-    float: left;
-    height: 55px;
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-    width: 20%;
+	display: table-cell;
+	float: left;
+	height: 55px;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	width: 20%;
 }
 .footer a.cur {
 	color: #e51a29

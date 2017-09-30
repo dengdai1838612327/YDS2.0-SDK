@@ -67,8 +67,10 @@
   </div>
   <div class="goods-name">
     <p class="name">骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋</p>
-    <span>运费：00.00元</span>
-    <span class="center">月销：000000笔</span>
+    <p class="desc">
+      <span>月销：000000笔</span>
+      <span class="fr">支持7天无理由退换货</span>
+    </p>
   </div>
   <div class="goods-sel" onclick="return goods_sel();">
     <label>已选</label>
@@ -113,9 +115,15 @@
       <i class="sprites"></i>
       <span>收藏</span>
     </div>
-    <input type="button" value="加入购物车" class="add-cart">
+
+    <!-- 按钮中，class带only的为没有“加入购物车”按钮的长的一个按钮，不带only的为两个按钮同时存在 -->
+
+    <input type="button" value="加入购物车" class="add-cart" onclick="return add_cart();">
     <!-- <input type="button" value="已抢光" class="buy gray"> -->
+    <!-- <input type="button" value="已抢光" class="buy gray only"> -->
+    <!-- <input type="button" value="该商品已下架" class="buy gray only"> -->
     <input type="button" value="立即购买" class="buy">
+    <!-- <input type="button" value="立即购买" class="buy only"> -->
   </div>
   <div class="back-top btm60">
     <a href="###"><i class="sprites"></i></a>
@@ -190,12 +198,29 @@
     <!-- <input type="button" value="该地区无货" class="gray"> -->
   </div>
 </div>
+<div class="add-cart-modal">
+  <div class="cart-msg">
+    <p>商品已成功加入购物车！</p>
+  </div>
+  <div class="cart-btn">
+    <input type="button" value="查看商品详情" class="gray">
+    <input type="button" value="去购物车结算" class="red">
+  </div>
+</div>
 <script src="js/jquery.min.js"></script>
 <script src="js/swiper.min.js"></script>
 <script>
 function goods_sel() {
   var bggray = $("#bg-gray");
   var modal = $(".sel-modal");
+  bggray.css("height", window.screen.height);
+  bggray.css("width", window.screen.width);
+  bggray.show();
+  modal.show();
+}
+function add_cart() {
+  var bggray = $("#bg-gray");
+  var modal = $(".add-cart-modal");
   bggray.css("height", window.screen.height);
   bggray.css("width", window.screen.width);
   bggray.show();

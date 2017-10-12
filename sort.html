@@ -23,7 +23,7 @@
   </header>
 </div>
 <div class="content" style="padding:45px 0 55px;">
-  <div class="sort-left">
+  <div class="sort-left" id="sort-left">
     <ul>
       <li><a href="###">电脑办公</a></li>
       <li class="cur"><a href="###">国际品牌</a></li>
@@ -40,7 +40,7 @@
       <li><a href="###">女装</a></li>
     </ul>
   </div>
-  <div class="sort-right">
+  <div class="sort-right" id="sort-right">
     <div class="sort-box">
       <h4>电脑整机</h4>
       <div class="sort-list">
@@ -156,5 +156,15 @@
     <span class="tab-label">我的</span>
   </a>
 </nav>
+<script src="js/jquery.min.js"></script>
+<script>
+  $(function(){
+    console.log($(".footer").position().top);
+    // var bg_h = window.screen.height - 100;
+    var bg_h = $(".footer").position().top - $(".topfixed").position().top - 45;
+    $("#sort-left").css("height",bg_h);
+    $("#sort-right").css("height",bg_h);
+  });
+</script>
 </body>
 </html>

@@ -282,7 +282,7 @@
 	font-size: 13px;
 	height: 34px;
 	line-height: 17px;
-	margin: 10px 0 0;
+	margin: 10px 0 18px;
 	overflow: hidden;
 }
 .item-con .item-desc .price {
@@ -737,6 +737,9 @@
 	float: left;
 	text-align: center;
 	position: relative;
+}
+.sort-list ul li.special {
+	line-height:18px;
 }
 .sort-list ul li a {
 	display: block;
@@ -1402,10 +1405,11 @@ dt.store-tit span {
 	padding-bottom: 5px;
 	border-bottom: 1px solid #ddd;
 }
+
 .goods-list .item-img {
 	float: left;
 	width: 27%;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 .goods-list .item-con {
 	float: right;

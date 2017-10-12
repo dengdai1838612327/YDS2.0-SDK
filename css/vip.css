@@ -379,6 +379,16 @@
 	float: left;
 	width: 75%;
 }
+.s-item .svalue .p_dx {
+	width: 20%;
+	float: left;
+	margin-top: 2px;
+	margin-left: 5%;
+}
+.s-item .svalue .p_dx input {
+	margin-right: 5px;
+	-webkit-appearance: radio;
+}
 .svalue input.ad-name {
 	background-color: #fff;
 	border: 0 none;
@@ -481,4 +491,186 @@
 .a_phone_btn a {
 	color: #fff;
 	display: block;
+}
+/*订单详情*/
+.order_nub {
+	height: 40px;
+	line-height: 40px;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+}
+.o_left {
+	float: left;
+	width: 60%;
+}
+.o_left i {
+	background-position: -130px -212px;
+	float: left;
+	height: 26px;
+	margin: 7px 5px 0 6px;
+	width: 25px;
+}
+.o_left span {
+	font-size: 14px;
+}
+.o_rt {
+	width: 40%;
+	float: right;
+	padding-right: 10px;
+}
+.o_rt span {
+	width: 40%;
+	float: right;
+	font-size: 14px;
+	font-weight: 700;
+	color: #f60;
+}
+.o_rt a.a_ck {
+	width: 50%;
+	text-align: center;
+	height: 24px;
+	line-height: 24px;
+	font-size: 13px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	float: right;
+	margin-top: 8px;
+}
+.store-rt {
+	width: 50%;
+	float: right;
+	padding-right: 10px;
+	height: 100%;
+}
+.store-rt a {
+	width: 45%;
+	text-align: center;
+	height: 24px;
+	line-height: 24px;
+	font-size: 13px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	float: right;
+	margin-top: 8px;
+	margin-left: 5%;
+}
+.order_nub2 {
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.order_nub2 i {
+	background-position: -3px -99px;
+	float: left;
+	height: 25px;
+	margin: 3px 5px 0 6px;
+	width: 25px;
+}
+.order-details {
+	width: 100%;
+	padding: 10px 15px 0;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	font-size: 13px;
+}
+.order-details ul {
+	margin-bottom: 10px;
+}
+.order-details ul li {
+	margin-bottom: 5px;
+}
+.order-price {
+	background: #fff;
+	padding: 10px;
+}
+.order-price p {
+	float: right;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.order-price p span {
+	margin-left: 10px;
+}
+.order-price p em {
+	color: #FF3333;
+}
+.order-price .btns a {
+	float: right;
+	margin-left: 10px;
+	width: 30%;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	text-align: center;
+	display: block;
+	border-radius: 3px;
+	font-size: 13px;
+}
+.order-price .btns a.a_pay {
+	border: 1px solid #FF3333;
+	background: #FF3333;
+	color: #fff;
+}
+.order_nub2 .store-rt {
+	padding-right: 0;
+	width: 42%;
+}
+.order_nub2 .store-rt a {
+	background: #fff;
+	margin-top: 3px;
+	width: 45%;
+	font-size: 12px;
+	margin-right: 4%;
+	margin-left: 0;
+}
+/*删除订单弹出框样式*/
+.w-modal {
+	background-color: #fff;
+	display: none;
+	height: 140px;
+	left: 50%;
+	margin-left: -120px;
+	margin-top: -70px;
+	overflow-y: scroll;
+	padding-bottom: 45px;
+	position: fixed;
+	top: 50%;
+	width: 240px;
+	z-index: 201;
+	padding: 10px;
+	font-size: 14px;
+	text-align: center;
+}
+.w-modal .img {
+	width: 100%;
+	line-height: 1;
+}
+.w-modal img {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+.w-modal p {
+	font-size: 14px;
+	color: #f00;
+}
+.w-modal .btns {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 8px;
+}
+.w-modal .btns a {
+	width: 42%;
+	display: inline-block;
+	height: 28px;
+	color: #fff;
+	text-align: center;
+	line-height: 28px;
+	background: #666;
+	margin: 0 4%
+}
+.w-modal .btns a.cur {
+	background: #DB002F;
 }

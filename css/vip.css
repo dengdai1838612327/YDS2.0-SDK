@@ -167,7 +167,7 @@
 }
 .pro-text p {
 	font-size: 14px;
-	height: 36px;
+	height: 65px;
 	line-height: 1.2;
 	margin-top: 12px;
 	overflow: hidden;
@@ -518,6 +518,7 @@
 	width: 40%;
 	float: right;
 	padding-right: 10px;
+	text-align: right;
 }
 .o_rt span {
 	width: 40%;
@@ -584,6 +585,7 @@
 .order-price {
 	background: #fff;
 	padding: 10px;
+	border-bottom: 1px solid #ddd;
 }
 .order-price p {
 	float: right;
@@ -673,4 +675,172 @@
 }
 .w-modal .btns a.cur {
 	background: #DB002F;
+}
+/*20171013------add*/
+/*发起售后*/
+.vip-order-list{
+	margin-bottom: 10px;
+}
+.vip-order-list.mt40{
+	margin-top: 40px;
+}
+.item-prop{
+	clear: both;
+	color: #f60;
+	font-size: 13px;
+	line-height: 30px;
+}
+.shouhou-btm{
+	background-color: #fff;
+	padding-left: 5px;
+	overflow: hidden;
+}
+.shouhou-btm .check-all span{
+	font-size: 13px;
+	line-height: 30px;
+	vertical-align: middle;
+}
+.shouhou-btm .fr{
+	text-align: right;
+	margin-right: 15px;
+	overflow: hidden;
+}
+.shouhou-btm .fr p{
+	color: #fc353a;
+	font-size: 15px;
+}
+.shouhou-btm .fr p em{
+	font-size: 18px;
+}
+.shouhou-btm .fr input{
+	float: right;
+	width: 65px;
+	height: 25px;
+	background-color: #db002f;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 0;
+	margin-top: 10px;
+}
+.shouhou-btm .shouhou-tips{
+	clear: both;
+	text-align: center;
+	margin: 20px 0 50px;
+	font-size: 14px;
+	color: #666;
+}
+.shouhou-form .sel{
+	background-color: #fff;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	height: 50px;
+	font-size: 14px;
+	padding: 12px 10px;
+}
+.shouhou-form .sel label{
+	display: inline-block;
+	width: 25%;
+}
+.shouhou-form .sel span{
+	display: inline-block;
+	width: 65px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-right: 15px;
+	color: #666;
+}
+.shouhou-form .sel span.cur{
+	color: #fc353a;
+	border: 1px solid #fc353a;
+}
+.form-list .input-list{
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+.form-list .input-list li{
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+	line-height: 35px;
+	padding: 0 10px;
+	font-size: 14px;
+}
+.form-list .input-list li:last-child{
+	border-bottom: none;
+}
+.form-list .input-list li label{
+	float: left;
+	width: 25%;
+	display: inline-block;
+}
+.form-list .input-list li input{
+	width: 70%;
+	height: 35px;
+	line-height: 35px;
+}
+.form-list .input-list li .svalue{
+	width: 75%;
+	float: left;
+}
+.form-list .detail{
+	font-size: 14px;
+	background-color: #fff;
+	padding: 0 10px;
+}
+.form-list .detail label{
+	display: block;
+	line-height: 35px;
+}
+.form-list .detail textarea{
+	border: 1px solid #ddd;
+	background-color: #f5f5f5;
+	padding: 5px;
+	width: 100%;
+	height: 140px;
+	border-radius: 5px;
+}
+.form-list .desc-img{
+	overflow: hidden;
+	margin-top: 10px
+}
+.form-list .desc-img ul{
+	overflow: hidden;
+}
+.form-list .desc-img ul li{
+	float: left;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  position: relative;
+}
+.form-list .desc-img ul li i.del{
+	display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-position: 0 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.form-list .desc-img ul li.camera i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 34px;
+  background-position: -167px -52px;
+  cursor: pointer;
+}
+.form-list .desc-img p{
+	color: #666;
+	font-size: 13px;
+	margin: 10px 0;
+}
+.form-list .tips{
+	text-align: center;
+	color: #333;
+	padding: 10px 0;
 }

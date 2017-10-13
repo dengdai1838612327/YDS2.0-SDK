@@ -1348,16 +1348,19 @@
 	width: 25%;
 	height: 40px;
 	line-height: 40px;
-	border-right: 1px solid #ddd;
 	text-align: center;
 	font-size: 14px;
-	color: #666;
+	color: #333;
 }
-.coupon-status ul li:last-child {
-	border-right: none;
+.coupon-status ul li span{
+	display: block;
+  margin: 0px 15px;
+  padding: 0 10px;
+  height: 40px;
 }
-.coupon-status ul li.cur {
+.coupon-status ul li.cur span {
 	color: #DB002F;
+  border-bottom: 3px solid #f00;
 }
 .coupon-list.mt40 {
 	margin-top: 40px;
@@ -1441,7 +1444,7 @@ dt.store-tit span {
 	background: url(../images/jia-white.png) 0 0 no-repeat #999;
 	background-size: 26px 22px;
 }
-.goods-list .num-link .num {
+.goods-list .item-desc .num-link .num {
 	float: left;
 	width: 32px;
 	height: 22px;
@@ -1451,9 +1454,11 @@ dt.store-tit span {
 	border: none;
 	padding: 0;
 	margin-right: 2px;
+	margin-left: 0;
 	background-color: #999;
 	color: #fff;
 	text-align: center;
+	font-size: 12px;
 }
 .property em {
 	margin-right: 8px;

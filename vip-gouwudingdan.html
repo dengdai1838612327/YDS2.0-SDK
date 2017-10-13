@@ -2,7 +2,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>订单详情</title>
+<title>购物订单</title>
 <link rel="stylesheet" type="text/css" href="css/common.css">
 <link rel="stylesheet" type="text/css" href="css/layout.css">
 <link rel="stylesheet" type="text/css" href="css/vip.css">
@@ -16,51 +16,159 @@
 <body>
 <div class="topfixed">
   <header class="header red"> <a href="###" class="a-back"></a>
-    <h2>订单详情</h2>
+    <h2>购物订单</h2>
   </header>
 </div>
 <div class="content" style="padding:45px 0 0;">
-  <div class="order_nub clearfix">
-    <div class="o_left clearfix"> <i class="sprites"></i> <span>订单号356789098765</span> </div>
-    <div class="o_rt clearfix"> <span>待付款</span> </div>
+  <div class="coupon-status">
+    <ul>
+      <li class="cur"><span>全部</span></li>
+      <li><span>待付款</span></li>
+      <li><span>待收货</span></li>
+      <li><span>待评价</span></li>
+    </ul>
   </div>
-  <div class="order-detail">
-    <dl>
-      <dd class="goods-list">
-        <div class="item-box">
-          <div class="item-img"> <img src="images/200_1.jpg" width="100" height="100"> </div>
-          <div class="item-con">
-            <h3>骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋 骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋 骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋</h3>
-            <div class="item-desc">
-              <div class="price">
-                <p class="price-new">￥99999.00</p>
-                <p class="num">×2</p>
-              </div>
-              <span class="off-text">有货</span> </div>
-          </div>
-        </div>
-      </dd>
-      <dd class="goods-list">
-        <div class="item-box">
-          <div class="item-img"> <img src="images/200_1.jpg" width="100" height="100"> </div>
-          <div class="item-con">
-            <h3>骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋 骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋 骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋</h3>
-            <div class="item-desc">
-              <div class="price">
-                <p class="price-new">￥151.00</p>
-                <p class="num">×2</p>
-              </div>
-              <span class="off-text">有货</span> </div>
-          </div>
-        </div>
-      </dd>
-    </dl>
-  </div>
-  <div class="order-price">
-    <div class="clearfix">
-      <p><span>共4件商品</span><span>合计：</span><em>￥200.00元 </em><span style="margin:0;">（含运费￥8.00）</span></p>
+  <div class="vip-order-list mt40">
+    <div class="order_nub clearfix">
+      <div class="o_left clearfix"> <i class="sprites"></i> <span>订单号356789098765</span> </div>
+      <div class="o_rt clearfix"> <span>待付款</span> </div>
     </div>
-    <div class="btns clearfix"><a onclick="return w();" href="###">删除订单</a></div>
+    <div class="order-detail">
+      <dl>
+        <dd class="goods-list">
+          <div class="item-box">
+            <div class="item-img"> <img src="images/200_1.jpg" width="100" height="100"> </div>
+            <div class="item-con">
+              <h3>骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋 骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋 骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋</h3>
+              <div class="item-desc">
+                <div class="price">
+                  <p class="price-new">￥99999.00</p>
+                  <p class="num">×2</p>
+                </div>
+                <span class="off-text">有货</span> </div>
+            </div>
+          </div>
+        </dd>
+        <dd class="goods-list">
+          <div class="item-box">
+            <div class="item-img"> <img src="images/200_1.jpg" width="100" height="100"> </div>
+            <div class="item-con">
+              <h3>骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋 骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋 骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋</h3>
+              <div class="item-desc">
+                <div class="price">
+                  <p class="price-new">￥151.00</p>
+                  <p class="num">×2</p>
+                </div>
+                <span class="off-text">有货</span> </div>
+            </div>
+          </div>
+        </dd>
+      </dl>
+    </div>
+    <div class="order-price">
+      <div class="clearfix">
+        <p><span>共4件商品</span><span>合计：</span><em>￥200.00元 </em><span style="margin:0;">（含运费￥8.00）</span></p>
+      </div>
+      <div class="btns clearfix">
+        <a class="a_pay" href="###">付&nbsp;款</a>
+        <a href="###">取消订单</a>
+        <a onclick="return w();" href="###">删除订单</a>
+      </div>
+    </div>
+  </div>
+  <div class="vip-order-list">
+    <div class="order_nub clearfix">
+      <div class="o_left clearfix"> <i class="sprites"></i> <span>订单号356789098765</span> </div>
+      <div class="o_rt clearfix"> <span>待收货</span> </div>
+    </div>
+    <div class="order-detail">
+      <dl>
+        <dd class="goods-list">
+          <div class="item-box">
+            <div class="item-img"> <img src="images/200_1.jpg" width="100" height="100"> </div>
+            <div class="item-con">
+              <h3>骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋 骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋 骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋</h3>
+              <div class="item-desc">
+                <div class="price">
+                  <p class="price-new">￥99999.00</p>
+                  <p class="num">×2</p>
+                </div>
+                <span class="off-text">有货</span> </div>
+            </div>
+          </div>
+        </dd>
+        <dd class="goods-list">
+          <div class="item-box">
+            <div class="item-img"> <img src="images/200_1.jpg" width="100" height="100"> </div>
+            <div class="item-con">
+              <h3>骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋 骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋 骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋</h3>
+              <div class="item-desc">
+                <div class="price">
+                  <p class="price-new">￥151.00</p>
+                  <p class="num">×2</p>
+                </div>
+                <span class="off-text">有货</span> </div>
+            </div>
+          </div>
+        </dd>
+      </dl>
+    </div>
+    <div class="order-price">
+      <div class="clearfix">
+        <p><span>共4件商品</span><span>合计：</span><em>￥200.00元 </em><span style="margin:0;">（含运费￥8.00）</span></p>
+      </div>
+      <div class="btns clearfix">
+        <a class="a_pay" href="###">确认收货</a>
+        <a href="###">查看物流</a>
+      </div>
+    </div>
+  </div>
+  <div class="vip-order-list">
+    <div class="order_nub clearfix">
+      <div class="o_left clearfix"> <i class="sprites"></i> <span>订单号356789098765</span> </div>
+      <div class="o_rt clearfix"> <span>待评价</span> </div>
+    </div>
+    <div class="order-detail">
+      <dl>
+        <dd class="goods-list">
+          <div class="item-box">
+            <div class="item-img"> <img src="images/200_1.jpg" width="100" height="100"> </div>
+            <div class="item-con">
+              <h3>骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋 骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋 骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋</h3>
+              <div class="item-desc">
+                <div class="price">
+                  <p class="price-new">￥99999.00</p>
+                  <p class="num">×2</p>
+                </div>
+                <span class="off-text">有货</span> </div>
+            </div>
+          </div>
+        </dd>
+        <dd class="goods-list">
+          <div class="item-box">
+            <div class="item-img"> <img src="images/200_1.jpg" width="100" height="100"> </div>
+            <div class="item-con">
+              <h3>骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋 骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋 骆驼户外登山鞋 男女防滑减震户外鞋 低帮牛皮徒步鞋</h3>
+              <div class="item-desc">
+                <div class="price">
+                  <p class="price-new">￥151.00</p>
+                  <p class="num">×2</p>
+                </div>
+                <span class="off-text">有货</span> </div>
+            </div>
+          </div>
+        </dd>
+      </dl>
+    </div>
+    <div class="order-price">
+      <div class="clearfix">
+        <p><span>共4件商品</span><span>合计：</span><em>￥200.00元 </em><span style="margin:0;">（含运费￥8.00）</span></p>
+      </div>
+      <div class="btns clearfix">
+        <a class="a_pay" href="###">评&nbsp;价</a>
+        <a onclick="return w();" href="###">删除订单</a>
+      </div>
+    </div>
   </div>
 </div>
 </body>

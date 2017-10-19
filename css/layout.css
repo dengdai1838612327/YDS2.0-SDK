@@ -292,7 +292,7 @@
 	float: right;
 }
 .item-desc .price-new {
-	color: #fc353a;
+	color: #E60012;
 	font-size: 18px;
 }
 .item-desc .price-old {
@@ -309,7 +309,7 @@
 	font-size: 14px;
 }
 .buy-link input.on {
-	background-color: #fc353a;
+	background-color: #E60012;
 }
 .buy-link input.off {
 	background-color: #666;
@@ -322,7 +322,7 @@
 	display: inline-block;
 	width: 75px;
 	height: 5px;
-	border: 1px solid #fc353a;
+	border: 1px solid #E60012;
 	border-radius: 20px;
 	overflow: hidden;
 }
@@ -381,7 +381,7 @@
 	border-right: none;
 }
 .filter ul li.on {
-	color: #fc353a;
+	color: #E60012;
 }
 .filter ul li .drop-box {
 	display: inline-block;
@@ -400,7 +400,7 @@
 	border-color: transparent transparent #999 transparent;
 }
 .filter ul li em.drop-up.on {
-	border-bottom-color: #fc353a;
+	border-bottom-color: #E60012;
 }
 .filter ul li em.drop-down {
 	display: block;
@@ -410,7 +410,7 @@
 	border-color: #999 transparent transparent transparent;
 }
 .filter ul li em.drop-down.on {
-	border-top-color: #fc353a;
+	border-top-color: #E60012;
 }
 .item-list.mt42 {
 	margin-top: 42px;
@@ -474,7 +474,7 @@
 	margin-top: 10px;
 }
 .item-list .red {
-	color: #fc353a;
+	color: #E60012;
 	font-size: 14px;
 }
 .item-list .time {
@@ -767,7 +767,7 @@
 }
 /*商品详情*/
 .goods-detail-swiper .swiper-pagination-bullet-active {
-	background-color: #db002f;
+	background-color: #E60012;
 }
 .head-link {
 	position: absolute;
@@ -1033,7 +1033,7 @@
 	background-color: #f19c38;
 }
 .goods-btn input.buy {
-	background-color: #db002f;
+	background-color: #E60012;
 }
 .goods-btn input.buy.only {
 	width: 80%;
@@ -1086,7 +1086,7 @@
 	margin-top: 10px;
 }
 .price-name .price {
-	color: #fc353a;
+	color: #E60012;
 	font-size: 14px;
 }
 .price-name .price em {
@@ -1128,7 +1128,7 @@
 }
 .sel-modal .sel-list dl dd.on {
 	color: #fff;
-	background-color: #fc353a;
+	background-color: #E60012;
 }
 .sel-modal .sel-addr {
 	border-bottom: 1px solid #ddd;
@@ -1175,8 +1175,8 @@
 	text-align: center;
 }
 .addr-open .tit li.cur {
-	color: #fc353a;
-	border-bottom: 1px solid #fc353a;
+	color: #E60012;
+	border-bottom: 1px solid #E60012;
 }
 .addr-open .con {
 	padding-left: 10px;
@@ -1280,7 +1280,7 @@
 	background-color: #999;
 }
 .add-cart-modal .cart-btn input.red {
-	background-color: #db002f;
+	background-color: #E60012;
 }
 /*查看所有评论*/
 .comment-goods {
@@ -1365,8 +1365,8 @@
 	height: 40px;
 }
 .coupon-status ul li.cur span {
-	color: #DB002F;
-	border-bottom: 3px solid #f00;
+	color: #E60012;
+	border-bottom: 3px solid #E60012;
 }
 .coupon-list.mt40 {
 	margin-top: 40px;
@@ -1486,7 +1486,7 @@ dt.store-tit span {
 	margin-left: 28px;
 }
 .goods-off .off-text {
-	color: #FC353A;
+	color: #E60012;
 	float: right;
 	font-size: 14px;
 	line-height: 30px;
@@ -1525,7 +1525,7 @@ dt.store-tit span {
 .cart-btm .btn .checkout {
 	float: left;
 	color: #fff;
-	background-color: #f00;
+	background-color: #E60012;
 	border: none;
 	width: 60%;
 	height: 50px;
@@ -1541,7 +1541,7 @@ dt.store-tit span {
 }
 .cart-btm .price .price-num em {
 	font-size: 18px;
-	color: #f00;
+	color: #E60012;
 }
 .cart-btm .price p.f12 {
 	font-size: 12px;
@@ -1646,7 +1646,7 @@ dt.store-tit span {
 }
 .order-sum p span em {
 	font-size: 18px;
-	color: #fc353a;
+	color: #E60012;
 }
 .confirm-sum {
 	margin-bottom: 45px;
@@ -1685,7 +1685,7 @@ dt.store-tit span {
 }
 .confirm-sum p span em {
 	font-size: 18px;
-	color: #fc353a;
+	color: #E60012;
 }
 .all_xz {
 	width: 100%;
@@ -1704,7 +1704,7 @@ dt.store-tit span {
 	text-align: center;
 }
 .all_xz .a-tj {
-	background: #fc353a;
+	background: #E60012;
 }
 .all_xz .a-wh {
 	background: #999;
@@ -1749,8 +1749,8 @@ dt.store-tit span {
 	border: 1px solid #fff;
 }
 .date-sel-modal .date-sel li.on {
-	border: 1px solid #fc353a;
-	color: #fc353a;
+	border: 1px solid #E60012;
+	color: #E60012;
 }
 .date-sel-modal .date-sel li span {
 	display: block;
@@ -1761,7 +1761,7 @@ dt.store-tit span {
 	margin: 10px;
 }
 .modal-body .title-tips {
-	color: #fc353a;
+	color: #E60012;
 	float: left;
 	line-height: 30px;
 }
@@ -1800,8 +1800,8 @@ dt.store-tit span {
 	padding: 0;
 }
 .receipt-modal span.sel.on {
-	border: 1px solid #fc353a;
-	color: #fc353a;
+	border: 1px solid #E60012;
+	color: #E60012;
 }
 .receipt-modal .type-sel, .receipt-modal .name, .receipt-modal .receipt-con {
 	clear: both;
@@ -1862,7 +1862,7 @@ dt.store-tit span {
 	margin: 0 10px;
 }
 .success-btn input.red {
-	background-color: #db002f;
+	background-color: #E60012;
 }
 .success-btn input.orange {
 	background-color: #f60;

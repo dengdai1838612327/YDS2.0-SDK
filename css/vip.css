@@ -9,7 +9,7 @@
 	color: #fff;
 	position: relative;
 	width: 100%;
-	background: #DB002F;
+	background: #E60012;
 	height: 100px;
 }
 .head-img .my-info {
@@ -173,7 +173,7 @@
 	overflow: hidden;
 }
 .pro-text span.sz_price {
-	color: #f00;
+	color: #E60012;
 	display: block;
 	font-size: 18px;
 }
@@ -265,8 +265,8 @@
 	position: relative;
 }
 .mt_new em {
-	border: 1px solid #db002f;
-	color: #db002f;
+	border: 1px solid #E60012;
+	color: #E60012;
 	font-size: 12px;
 	height: 19px;
 	line-height: 17px;
@@ -284,7 +284,7 @@
 	display: block;
 	height: 40px;
 	font-size: 15px;
-	background: #DB002F;
+	background: #E60012;
 	color: #fff;
 	text-align: center;
 	line-height: 40px;
@@ -474,12 +474,12 @@
 	display: block;
 	text-align: center;
 	line-height: 35px;
-	background: #f36;
+	background: #E60012;
 	font-size: 14px;
 	margin-top: 7px;
 }
 .a_phone_btn {
-	background: #db002f none repeat scroll 0 0;
+	background: #E60012 none repeat scroll 0 0;
 	color: #fff;
 	display: block;
 	font-size: 15px;
@@ -656,7 +656,7 @@
 }
 .w-modal p {
 	font-size: 14px;
-	color: #f00;
+	color: #E60012;
 }
 .w-modal .btns {
 	width: 100%;
@@ -674,63 +674,63 @@
 	margin: 0 4%
 }
 .w-modal .btns a.cur {
-	background: #DB002F;
+	background: #E60012;
 }
 /*20171013------add*/
 /*发起售后*/
-.vip-order-list{
+.vip-order-list {
 	margin-bottom: 10px;
 }
-.vip-order-list.mt40{
+.vip-order-list.mt40 {
 	margin-top: 40px;
 }
-.item-prop{
+.item-prop {
 	clear: both;
 	color: #f60;
 	font-size: 13px;
 	line-height: 30px;
 }
-.shouhou-btm{
+.shouhou-btm {
 	background-color: #fff;
 	padding-left: 5px;
 	overflow: hidden;
 }
-.shouhou-btm .check-all span{
+.shouhou-btm .check-all span {
 	font-size: 13px;
 	line-height: 30px;
 	vertical-align: middle;
 }
-.shouhou-btm .fr{
+.shouhou-btm .fr {
 	text-align: right;
 	margin-right: 15px;
 	overflow: hidden;
 }
-.shouhou-btm .fr p{
-	color: #fc353a;
+.shouhou-btm .fr p {
+	color: #E60012;
 	font-size: 15px;
 }
-.shouhou-btm .fr p em{
+.shouhou-btm .fr p em {
 	font-size: 18px;
 }
-.shouhou-btm .fr input{
+.shouhou-btm .fr input {
 	float: right;
 	width: 65px;
 	height: 25px;
-	background-color: #db002f;
+	background-color: #E60012;
 	color: #fff;
 	border: none;
 	border-radius: 5px;
 	padding: 0;
 	margin-top: 10px;
 }
-.shouhou-btm .shouhou-tips{
+.shouhou-btm .shouhou-tips {
 	clear: both;
 	text-align: center;
 	margin: 20px 0 50px;
 	font-size: 14px;
 	color: #666;
 }
-.shouhou-form .sel{
+.shouhou-form .sel {
 	background-color: #fff;
 	margin-bottom: 10px;
 	border-bottom: 1px solid #ddd;
@@ -738,11 +738,11 @@
 	font-size: 14px;
 	padding: 12px 10px;
 }
-.shouhou-form .sel label{
+.shouhou-form .sel label {
 	display: inline-block;
 	width: 25%;
 }
-.shouhou-form .sel span{
+.shouhou-form .sel span {
 	display: inline-block;
 	width: 65px;
 	height: 25px;
@@ -753,48 +753,48 @@
 	margin-right: 15px;
 	color: #666;
 }
-.shouhou-form .sel span.cur{
-	color: #fc353a;
-	border: 1px solid #fc353a;
+.shouhou-form .sel span.cur {
+	color: #E60012;
+	border: 1px solid #E60012;
 }
-.form-list .input-list{
+.form-list .input-list {
 	background-color: #fff;
 	margin-bottom: 10px;
 }
-.form-list .input-list li{
+.form-list .input-list li {
 	overflow: hidden;
 	border-bottom: 1px solid #ddd;
 	line-height: 35px;
 	padding: 0 10px;
 	font-size: 14px;
 }
-.form-list .input-list li:last-child{
+.form-list .input-list li:last-child {
 	border-bottom: none;
 }
-.form-list .input-list li label{
+.form-list .input-list li label {
 	float: left;
 	width: 25%;
 	display: inline-block;
 }
-.form-list .input-list li input{
+.form-list .input-list li input {
 	width: 70%;
 	height: 35px;
 	line-height: 35px;
 }
-.form-list .input-list li .svalue{
+.form-list .input-list li .svalue {
 	width: 75%;
 	float: left;
 }
-.form-list .detail{
+.form-list .detail {
 	font-size: 14px;
 	background-color: #fff;
 	padding: 0 10px;
 }
-.form-list .detail label{
+.form-list .detail label {
 	display: block;
 	line-height: 35px;
 }
-.form-list .detail textarea{
+.form-list .detail textarea {
 	border: 1px solid #ddd;
 	background-color: #f5f5f5;
 	padding: 5px;
@@ -802,60 +802,60 @@
 	height: 140px;
 	border-radius: 5px;
 }
-.form-list .desc-img{
+.form-list .desc-img {
 	overflow: hidden;
 	margin-top: 10px
 }
-.form-list .desc-img ul{
+.form-list .desc-img ul {
 	overflow: hidden;
 }
-.form-list .desc-img ul li{
+.form-list .desc-img ul li {
 	float: left;
-  width: 60px;
-  height: 60px;
-  margin-right: 10px;
-  position: relative;
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+	position: relative;
 }
-.form-list .desc-img ul li i.del{
+.form-list .desc-img ul li i.del {
 	display: inline-block;
-  width: 15px;
-  height: 15px;
-  background-position: 0 0;
-  position: absolute;
-  right: 0;
-  top: 0;
+	width: 15px;
+	height: 15px;
+	background-position: 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 .form-list .desc-img ul li.camera i {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 40px;
-  height: 34px;
-  background-position: -167px -52px;
-  cursor: pointer;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 40px;
+	height: 34px;
+	background-position: -167px -52px;
+	cursor: pointer;
 }
-.form-list .desc-img p{
+.form-list .desc-img p {
 	color: #666;
 	font-size: 13px;
 	margin: 10px 0;
 }
-.form-list .tips{
+.form-list .tips {
 	text-align: center;
 	color: #333;
 	padding: 10px 0;
 }
 /*查看物流*/
-.wuliu-detail{
+.wuliu-detail {
 	background-color: #fff;
 	padding: 10px 15px;
 	font-size: 13px;
 	color: #666;
 }
-.wuliu-tit{
+.wuliu-tit {
 	overflow: hidden;
 	margin-bottom: 15px;
 }
-.wuliu-tit i.sprites{
+.wuliu-tit i.sprites {
 	float: left;
 	width: 45px;
 	height: 35px;
@@ -863,23 +863,23 @@
 	margin-top: 5px;
 	background-position: -70px -8px;
 }
-.wuliu-tit .tit-r{
+.wuliu-tit .tit-r {
 	float: left;
 }
-.wuliu-tit .tit-r .comp{
+.wuliu-tit .tit-r .comp {
 	font-size: 14px;
 	margin-bottom: 10px;
 }
-.wuliu-list li{
+.wuliu-list li {
 	border-left: 1px solid #ccc;
 	padding-left: 35px;
 	margin-left: 15px;
 	position: relative;
 }
-.wuliu-list li.cur{
-	color: #fc353a;
+.wuliu-list li.cur {
+	color: #E60012;
 }
-.wuliu-list li .point{
+.wuliu-list li .point {
 	width: 9px;
 	height: 9px;
 	border-radius: 10px;
@@ -888,60 +888,60 @@
 	background-color: #666;
 	margin-top: 15px;
 }
-.wuliu-list li.cur .point{
-	background-color: #fc353a;
+.wuliu-list li.cur .point {
+	background-color: #E60012;
 }
-.wuliu-list li .list-r{
+.wuliu-list li .list-r {
 	border-bottom: 1px solid #ccc;
 	padding: 10px 0 5px;
 }
-.wuliu-list li:last-child .list-r{
+.wuliu-list li:last-child .list-r {
 	border-bottom: none;
 }
-.wuliu-list li .list-r p{
+.wuliu-list li .list-r p {
 	margin-bottom: 5px;
 }
-.wuliu-list li .list-r p.time{
+.wuliu-list li .list-r p.time {
 	font-size: 12px;
 	color: #999;
 }
-.wuliu-list li.cur .list-r p.time{
-	color: #fc353a;
+.wuliu-list li.cur .list-r p.time {
+	color: #E60012;
 }
 /*售后记录*/
-.item-desc .store-rt{
+.item-desc .store-rt {
 	width: auto;
 	padding-right: 0;
 	margin-top: 3px;
 }
-.item-desc .store-rt a{
+.item-desc .store-rt a {
 	width: auto;
 	margin: 0;
 	padding: 0 5px;
 	line-height: 22px;
 	background-color: #fff;
 }
-.shouhou-btm.bd-b{
+.shouhou-btm.bd-b {
 	border-bottom: 1px solid #ddd;
 	margin-bottom: 5px;
 }
-.shouhou-btm .btm-l{
+.shouhou-btm .btm-l {
 	float: left;
 	font-size: 13px;
 	height: 40px;
 	line-height: 40px;
 }
-.shouhou-btm .btm-l .sh-type{
+.shouhou-btm .btm-l .sh-type {
 	color: #f60;
 	padding: 0 10px;
 	margin-right: 10px;
 	border-right: 1px solid #ddd;
 }
-.shouhou-btm .btm-r{
+.shouhou-btm .btm-r {
 	float: right;
 	margin-right: 10px;
 }
-.shouhou-btm .btm-r a{
+.shouhou-btm .btm-r a {
 	display: inline-block;
 	width: 60px;
 	height: 24px;
@@ -953,91 +953,91 @@
 	margin: 8px 0;
 }
 /*售后详情*/
-.sh-detail .block{
+.sh-detail .block {
 	padding-left: 15px;
 	border-bottom: 1px solid #ddd;
 	font-size: 13px;
 }
-.sh-detail .block-white{
+.sh-detail .block-white {
 	background-color: #fff;
 }
-.sh-detail .block-gray{
+.sh-detail .block-gray {
 	background-color: #f5f5f5;
 }
-.sh-detail .block li{
+.sh-detail .block li {
 	overflow: hidden;
 	border-bottom: 1px solid #ddd;
 	line-height: 25px;
 	padding: 5px 0;
 }
-.sh-detail .block li:last-child{
+.sh-detail .block li:last-child {
 	border-bottom: none;
 }
-.sh-detail .block li label{
+.sh-detail .block li label {
 	float: left;
 	width: 25%;
 }
-.sh-detail .block li p{
+.sh-detail .block li p {
 	float: left;
 	width: 75%;
 }
-.sh-detail .block li p.red{
-	color: #fc353a;
+.sh-detail .block li p.red {
+	color: #E60012;
 }
-.sh-detail .block li p span{
+.sh-detail .block li p span {
 	display: block;
 }
 /*用户发货*/
-.send-form{
+.send-form {
 	background-color: #fff;
 	border-bottom: 1px solid #ddd;
 	line-height: 35px;
 	font-size: 13px;
 	padding-left: 15px;
 }
-.send-form ul li{
+.send-form ul li {
 	overflow: hidden;
 	border-bottom: 1px solid #ddd;
 }
-.send-form ul li:last-child{
+.send-form ul li:last-child {
 	border-bottom: none;
 }
-.send-form ul li label{
+.send-form ul li label {
 	float: left;
 	width: 25%;
 }
-.send-form ul li input{
+.send-form ul li input {
 	float: left;
 	width: 75%;
 	height: 35px;
 	line-height: 35px;
 }
-.send-tips{
-	color: #fc353a;
+.send-tips {
+	color: #E60012;
 	margin-left: 15px;
 	line-height: 25px;
 	font-size: 13px;
 }
 /*点评*/
-.pingjia-list{
+.pingjia-list {
 	padding: 0 15px;
 	background-color: #fff;
 	overflow: hidden;
 	border-bottom: 1px solid #ddd;
 }
-.click-level{
+.click-level {
 	overflow: hidden;
 	margin-top: 10px;
 }
-.click-level span{
+.click-level span {
 	float: left;
 	font-size: 14px;
 }
-.pingjia-text{
+.pingjia-text {
 	position: relative;
 	margin-bottom: 25px;
 }
-.pingjia-text textarea{
+.pingjia-text textarea {
 	width: 100%;
 	height: 160px;
 	padding: 5px;
@@ -1047,22 +1047,22 @@
 	font-size: 13px;
 	margin-top: 15px;
 }
-.pingjia-text span{
+.pingjia-text span {
 	position: absolute;
 	right: 20px;
 	bottom: 10px;
 	color: #666;
 	font-size: 13px;
 }
-.pingjia-text span.red{
-	color: #fc353a;
+.pingjia-text span.red {
+	color: #E60012;
 }
-.comment-goods .img.m1510{
+.comment-goods .img.m1510 {
 	margin: 15px 10px;
 }
-.comment-goods.h125{
+.comment-goods.h125 {
 	height: 125px;
 }
-.comment-goods.pt10{
+.comment-goods.pt10 {
 	padding-top: 10px;
 }

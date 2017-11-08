@@ -12,7 +12,7 @@
 <meta name="format-detection" content="telephone=no" />
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=0">
 </head>
-<body>
+<body onLoad="loaded()">
 <div class="topfixed">
   <header class="header red">
     <span class="search-box"><i class="sprites"></i></span>
@@ -22,114 +22,143 @@
     </a>
   </header>
 </div>
+<div class="mg-auto overflow">
 <div class="content" style="padding:45px 0 55px;">
   <div class="sort-left" id="sort-left">
-    <ul>
-      <li><a href="###">电脑办公</a></li>
-      <li class="cur"><a href="###">国际品牌</a></li>
-      <li><a href="###">奢侈品</a></li>
-      <li><a href="###">男装</a></li>
-      <li><a href="###">女装</a></li>
-      <li><a href="###">国际品牌</a></li>
-      <li><a href="###">奢侈品</a></li>
-      <li><a href="###">男装</a></li>
-      <li><a href="###">女装</a></li>
-      <li><a href="###">国际品牌</a></li>
-      <li><a href="###">奢侈品</a></li>
-      <li><a href="###">男装</a></li>
-      <li><a href="###">女装</a></li>
-    </ul>
+    <div id="scroller">
+      <ul>
+        <li class="cur"><a href="###">电脑办公</a></li>
+        <li><a href="###">国际品牌</a></li>
+        <li><a href="###">奢侈品</a></li>
+        <li><a href="###">男装</a></li>
+        <li><a href="###">女装</a></li>
+        <li><a href="###">国际品牌</a></li>
+        <li><a href="###">奢侈品</a></li>
+        <li><a href="###">男装</a></li>
+        <li><a href="###">女装</a></li>
+        <li><a href="###">国际品牌</a></li>
+        <li><a href="###">奢侈品</a></li>
+        <li><a href="###">男装</a></li>
+        <li><a href="###">女装</a></li>
+        <li><a href="###">奢侈品</a></li>
+        <li><a href="###">男装</a></li>
+        <li><a href="###">女装</a></li>
+        <li><a href="###">国际品牌</a></li>
+        <li><a href="###">奢侈品</a></li>
+        <li><a href="###">男装</a></li>
+        <li><a href="###">女装</a></li>
+        <li><a href="###">国际品牌</a></li>
+        <li><a href="###">奢侈品</a></li>
+        <li><a href="###">男装</a></li>
+        <li><a href="###">女装</a></li>
+      </ul>
+    </div>
   </div>
   <div class="sort-right" id="sort-right">
-    <div class="sort-box">
-      <h4>电脑整机</h4>
-      <div class="sort-list">
-        <ul>
-          <li><a href="###">笔记本</a></li>
-          <li><a href="###">游戏本</a></li>
-          <li><a href="###">台式机</a></li>
-          <li><a href="###">一体机</a></li>
-          <li><a href="###">轻薄本</a></li>
-          <li><a href="###">平板电脑</a></li>
-          <li><a href="###">笔记本配件</a></li>
-          <li><a href="###"><i class="icon-down"></i></a></li>
-        </ul>
+    <div id="scroller2">
+      <div class="sort-box" style="display: block;">
+        <h4>电脑办公</h4>
+        <div class="sort-list">
+          <ul>
+            <li><a href="###">笔记本</a></li>
+            <li><a href="###">游戏本</a></li>
+            <li><a href="###">台式机</a></li>
+            <li><a href="###">一体机</a></li>
+            <li><a href="###">轻薄本</a></li>
+            <li><a href="###">平板电脑</a></li>
+            <li><a href="###">笔记本配件</a></li>
+            <li><a href="###"><i class="icon-down"></i></a></li>
+          </ul>
+        </div>
+        <h4>电脑办公</h4>
+        <div class="sort-list">
+          <ul>
+            <li><a href="###">笔记本</a></li>
+            <li><a href="###">游戏本</a></li>
+            <li><a href="###">台式机</a></li>
+            <li><a href="###">一体机</a></li>
+            <li><a href="###">轻薄本</a></li>
+            <li><a href="###">平板电脑</a></li>
+            <li><a href="###">笔记本配件</a></li>
+            <li><a href="###"><i class="icon-down"></i></a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="sort-box">
-      <h4>外设产品</h4>
-      <div class="sort-list">
-        <ul>
-          <li><a href="###">笔记本</a></li>
-          <li><a href="###">游戏本</a></li>
-          <li><a href="###">台式机</a></li>
-          <li><a href="###">一体机</a></li>
-          <li><a href="###">轻薄本</a></li>
-          <li><a href="###">笔记本</a></li>
-          <li><a href="###">游戏本</a></li>
-          <li><a href="###">台式机</a></li>
-          <li><a href="###">一体机</a></li>
-          <li><a href="###">平板电脑</a></li>
-          <li><a href="###">笔记本配件</a></li>
-          <li><a href="###"><i class="icon-up"></i></a></li>
-        </ul>
+      <div class="sort-box" style="display: none;">
+        <h4>国际品牌</h4>
+        <div class="sort-list">
+          <ul>
+            <li><a href="###">笔记本</a></li>
+            <li><a href="###">游戏本</a></li>
+            <li><a href="###">台式机</a></li>
+            <li><a href="###">一体机</a></li>
+            <li><a href="###">轻薄本</a></li>
+            <li><a href="###">笔记本</a></li>
+            <li><a href="###">游戏本</a></li>
+            <li><a href="###">台式机</a></li>
+            <li><a href="###">一体机</a></li>
+            <li><a href="###">平板电脑</a></li>
+            <li><a href="###">笔记本配件</a></li>
+            <li><a href="###"><i class="icon-up"></i></a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="sort-box">
-      <h4>外设产品</h4>
-      <div class="sort-list">
-        <ul>
-          <li><a href="###">笔记本</a></li>
-          <li><a href="###">游戏本</a></li>
-          <li><a href="###">台式机</a></li>
-          <li><a href="###">一体机</a></li>
-          <li><a href="###">轻薄本</a></li>
-          <li><a href="###">笔记本</a></li>
-          <li><a href="###">游戏本</a></li>
-          <li><a href="###">台式机</a></li>
-          <li><a href="###">一体机</a></li>
-          <li><a href="###">平板电脑</a></li>
-          <li><a href="###">笔记本配件</a></li>
-          <li><a href="###"><i class="icon-up"></i></a></li>
-        </ul>
+      <div class="sort-box" style="display: none;">
+        <h4>奢侈品</h4>
+        <div class="sort-list">
+          <ul>
+            <li><a href="###">笔记本</a></li>
+            <li><a href="###">游戏本</a></li>
+            <li><a href="###">台式机</a></li>
+            <li><a href="###">一体机</a></li>
+            <li><a href="###">轻薄本</a></li>
+            <li><a href="###">笔记本</a></li>
+            <li><a href="###">游戏本</a></li>
+            <li><a href="###">台式机</a></li>
+            <li><a href="###">一体机</a></li>
+            <li><a href="###">平板电脑</a></li>
+            <li><a href="###">笔记本配件</a></li>
+            <li><a href="###"><i class="icon-up"></i></a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="sort-box">
-      <h4>外设产品</h4>
-      <div class="sort-list">
-        <ul>
-          <li><a href="###">笔记本</a></li>
-          <li><a href="###">游戏本</a></li>
-          <li><a href="###">台式机</a></li>
-          <li><a href="###">一体机</a></li>
-          <li><a href="###">轻薄本</a></li>
-          <li><a href="###">笔记本</a></li>
-          <li><a href="###">游戏本</a></li>
-          <li><a href="###">台式机</a></li>
-          <li><a href="###">一体机</a></li>
-          <li><a href="###">平板电脑</a></li>
-          <li><a href="###">笔记本配件</a></li>
-          <li><a href="###"><i class="icon-up"></i></a></li>
-        </ul>
+      <div class="sort-box" style="display: none;">
+        <h4>男装</h4>
+        <div class="sort-list">
+          <ul>
+            <li><a href="###">笔记本</a></li>
+            <li><a href="###">游戏本</a></li>
+            <li><a href="###">台式机</a></li>
+            <li><a href="###">一体机</a></li>
+            <li><a href="###">轻薄本</a></li>
+            <li><a href="###">笔记本</a></li>
+            <li><a href="###">游戏本</a></li>
+            <li><a href="###">台式机</a></li>
+            <li><a href="###">一体机</a></li>
+            <li><a href="###">平板电脑</a></li>
+            <li><a href="###">笔记本配件</a></li>
+            <li><a href="###"><i class="icon-up"></i></a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="sort-box">
-      <h4>外设产品</h4>
-      <div class="sort-list">
-        <ul>
-          <li><a href="###">笔记本</a></li>
-          <li><a href="###">游戏本</a></li>
-          <li><a href="###">台式机</a></li>
-          <li><a href="###">一体机</a></li>
-          <li><a href="###">轻薄本</a></li>
-          <li><a href="###">笔记本</a></li>
-          <li><a href="###">游戏本</a></li>
-          <li><a href="###">台式机</a></li>
-          <li><a href="###">一体机</a></li>
-          <li><a href="###">平板电脑</a></li>
-          <li><a href="###">笔记本配件</a></li>
-          <li><a href="###"><i class="icon-up"></i></a></li>
-        </ul>
+      <div class="sort-box" style="display: none;">
+        <h4>女装</h4>
+        <div class="sort-list">
+          <ul>
+            <li><a href="###">笔记本</a></li>
+            <li><a href="###">游戏本</a></li>
+            <li><a href="###">台式机</a></li>
+            <li><a href="###">一体机</a></li>
+            <li><a href="###">轻薄本</a></li>
+            <li><a href="###">笔记本</a></li>
+            <li><a href="###">游戏本</a></li>
+            <li><a href="###">台式机</a></li>
+            <li><a href="###">一体机</a></li>
+            <li><a href="###">平板电脑</a></li>
+            <li><a href="###">笔记本配件</a></li>
+            <li><a href="###"><i class="icon-up"></i></a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -156,15 +185,56 @@
     <span class="tab-label">我的</span>
   </a>
 </nav>
+
 <script src="js/jquery.min.js"></script>
-<script>
-  $(function(){
-    console.log($(".footer").position().top);
-    // var bg_h = window.screen.height - 100;
-    var bg_h = $(".footer").position().top - $(".topfixed").position().top - 45;
-    $("#sort-left").css("height",bg_h);
-    $("#sort-right").css("height",bg_h);
+
+<script type="text/javascript" src="js/iscroll.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(function() {
+    //菜单框架自动获取高度
+    var doc_H=$(document).height();
+	var nav=$("nav");
+	if(nav.length>0) {
+		$('.content').height(doc_H-155);
+		$('#sort-left').css('bottom','55px');
+		$('#sort-right').css('bottom','55px');
+	}
+    else{
+		$('.content').height(doc_H-100);
+	}
+    window.onresize=function(){
+      var doc_H=$(document).height();
+      if(nav.length>0) {
+		$('.content').height(doc_H-155);
+		$('#sort-left').css('bottom','55px');
+		$('#sort-right').css('bottom','55px');
+	  }
+      else{
+		$('.content').height(doc_H-100);
+	  }
+    }
   });
+
+
+  var myScroll_left;
+  var myScroll_right;
+  function loaded () {
+    myScroll_left = new IScroll('#sort-left', { mouseWheel: true, click: true });
+    myScroll_right = new IScroll('#sort-right', { mouseWheel: true, click: true });
+  }
+  document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+    $(document).ready(function() {  //tbl切换
+        $(".sort-left  li").click(function(){
+            tabIndex = $(this).index();
+            $(this).siblings("li").removeClass("cur");
+            $(this).addClass("cur");
+            $(".sort-right").children().children(".sort-box").hide();
+            $(".sort-right").children().children(".sort-box").eq(tabIndex).show();
+        });
+    });
+
 </script>
+</div>
 </body>
 </html>

@@ -1867,3 +1867,24 @@ dt.store-tit span {
 .success-btn input.orange {
 	background-color: #f60;
 }
+/*分类样式*/
+#sort-left {
+    background: #f6f6f6 none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    width: 24%;
+    z-index: 1;
+}
+#sort-right {
+    background: #ffffff none repeat scroll 0 0;
+    bottom: 0;
+    left: 26%;
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    width: 74%;
+    z-index: 1;
+}

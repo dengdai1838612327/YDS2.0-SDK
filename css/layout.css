@@ -943,7 +943,6 @@
 	border-bottom: 1px solid #ddd;
 	height: 30px;
 	line-height: 30px;
-	padding-left: 10px;
 }
 .comment-box .tit .icon-right {
 	height: 30px;
@@ -996,6 +995,7 @@
 	width: 100%;
 	height: 49px;
 	overflow: hidden;
+	z-index: 10;
 }
 .goods-btn .star {
 	float: left;
@@ -1360,8 +1360,7 @@
 }
 .coupon-status ul li span {
 	display: block;
-	margin: 0px 15px;
-	padding: 0 10px;
+	margin: 0px 8px;
 	height: 40px;
 }
 .coupon-status ul li.cur span {
@@ -1709,7 +1708,7 @@ dt.store-tit span {
 .all_xz .a-wh {
 	background: #999;
 }
-.date-sel-modal, .receipt-modal {
+.date-sel-modal, .receipt-modal ,.address-modal,.coupon-modal{
 	display: none;
 	position: fixed;
 	bottom: 0;
@@ -1726,7 +1725,7 @@ dt.store-tit span {
 .receipt-modal.no-receipt .receipt-sel {
 	margin-bottom: 10px;
 }
-.date-sel-modal .modal-title, .receipt-modal .modal-title {
+.date-sel-modal .modal-title, .receipt-modal .modal-title, .coupon-modal .modal-title {
 	float: left;
 	margin: 0 10px;
 	color: #333;
@@ -1782,7 +1781,7 @@ dt.store-tit span {
 	background-color: #fff;
 	border: none;
 }
-.receipt-modal .receipt-sel {
+.receipt-modal .receipt-sel, .coupon-modal .coupon-list {
 	clear: both;
 	overflow: hidden;
 	margin: 0 10px;
